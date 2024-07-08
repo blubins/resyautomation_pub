@@ -38,7 +38,7 @@ func whopAuth(userLicense string) (bool, string, error) {
 	if err != nil {
 		return false, "", err
 	}
-	req.Header.Set("Authorization", "Bearer UnDKL3oroz-lAD8Hcav603kB8OfIu6jS6g8IPj1-rQ0")
+	req.Header.Set("Authorization", "Bearer ")
 	req.Header.Set("Accept", "application/json")
 	req.Header.Set("Content-Type", "application/json")
 
